@@ -15,5 +15,5 @@ jobs:
     - uses: actions/setup-node@v2-beta
       with:
         node-version: '12'
+    - working-directory: /home/runner/work/weather/weather
     - run: npm install
-    - run: npm test
